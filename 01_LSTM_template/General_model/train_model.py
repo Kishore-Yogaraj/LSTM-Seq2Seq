@@ -11,7 +11,7 @@ from tensorflow.keras.backend import clear_session
 
 # === Configuration ===
 folder_path = os.getcwd()
-data_folder = os.path.join(folder_path, "Train_Group_Multi")
+data_folder = os.path.join(folder_path, "Train_Group_General")
 save_dir = os.path.join(folder_path, "Generalized_Results")
 column_name = "sigma1eff[kN/m²]"
 n_input = 20

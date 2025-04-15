@@ -17,7 +17,7 @@ n_features = 1
 
 # === PATH SETUP ===
 folder_path = os.getcwd()
-data_folder = os.path.join(folder_path, "Test_Group_Multi")
+data_folder = os.path.join(folder_path, "Test_Group_General")
 test_file = "test_sample.txt"
 test_path = os.path.join(data_folder, test_file)
 model_path = os.path.join(folder_path, "Generalized_Results", "generalized_lstm_model.keras")
